@@ -53,12 +53,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
+	<key>NSLocationUsageDescription</key>
+	<string>Need your current location to obtain weather for you</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Need your current location to obtain weather for you</string>
 </dict>
 </plist>

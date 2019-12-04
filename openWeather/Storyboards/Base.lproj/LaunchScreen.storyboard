@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img3" translatesAutoresizingMaskIntoConstraints="NO" id="5JP-vZ-l6k">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What wheather you have?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iM6-hG-Fqa">
+                                <rect key="frame" x="24.5" y="408" width="271" height="143.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="271" id="1mm-cv-MMy"/>
+                                    <constraint firstAttribute="height" constant="143.5" id="4cL-9b-sp8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1mm-cv-MMy"/>
+                                        <exclude reference="4cL-9b-sp8"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1mm-cv-MMy"/>
+                                        <include reference="4cL-9b-sp8"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="5JP-vZ-l6k" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="3sG-il-T2Y"/>
+                            <constraint firstItem="5JP-vZ-l6k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="F5f-bw-wtu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iM6-hG-Fqa" secondAttribute="trailing" constant="24.5" id="FAc-xG-MEo"/>
+                            <constraint firstItem="iM6-hG-Fqa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="408" id="Ha5-ci-Pv5"/>
+                            <constraint firstItem="iM6-hG-Fqa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24.5" id="a8Y-TP-Vnh"/>
+                            <constraint firstAttribute="bottom" secondItem="5JP-vZ-l6k" secondAttribute="bottom" id="gkz-RK-D7I"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iM6-hG-Fqa" secondAttribute="bottom" constant="16.5" id="n8N-vV-MGE"/>
+                            <constraint firstItem="iM6-hG-Fqa" firstAttribute="centerX" secondItem="5JP-vZ-l6k" secondAttribute="centerX" id="qRO-Ud-jPX"/>
+                            <constraint firstItem="5JP-vZ-l6k" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uWJ-De-19d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iM6-hG-Fqa" secondAttribute="bottom" constant="268" id="vsA-fT-2BN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="n8N-vV-MGE"/>
+                                <exclude reference="qRO-Ud-jPX"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="FAc-xG-MEo"/>
+                                <include reference="n8N-vV-MGE"/>
+                                <exclude reference="vsA-fT-2BN"/>
+                                <exclude reference="Ha5-ci-Pv5"/>
+                                <exclude reference="a8Y-TP-Vnh"/>
+                                <include reference="qRO-Ud-jPX"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img3" width="1125" height="2436"/>
+    </resources>
+</document>
